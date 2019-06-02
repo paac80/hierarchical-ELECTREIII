@@ -1,14 +1,3 @@
-- **Code** goes in the *Code* pane. Your code will be copied to the `/code` directory at the beginning of each run.
-- **Data** goes in the *Data* pane. Your data will be copied to the `/data` directory at the beginning of each run.
-- **Results** include any plots, figures, and resulting data, which should be saved in the `/results` directory. At the end of the run, these files will appear in the *Results* pane where you can view and download them.
-
-> Note that the entire filesystem is ephemeral: only files saved in `/results` will survive the end of the run.
-
-## Environment and Dependencies
-
-Click the gear icon next to *Run* to find the *Run Environment* screen, where you can choose a base environment and customize it by installing dependencies.
-
-### Base Environment
 
 # hierarchy-ELECTREIII
 The ELECTRE III method developed for the multiple criteria hierarchy process
@@ -21,7 +10,9 @@ How to run?
 ## Description of the input and output data
 
 > The input files shoul be saved in a directory inside the /projects
+
 Example
+
 projects/my_project_name
 
 Running as
@@ -37,8 +28,8 @@ g_2
 g_m
 
 
-hierarchy.txt
----------------------------------
+### hierarchy.txt
+
 	     g
 	  /    \
 	g1      g2
@@ -47,9 +38,11 @@ hierarchy.txt
     /  \  |   / \  /  \
    c1 c2 c3  c4 c5 c6  c7
 
-The above hierarchy is represented with the follow format for the hierarchy.txt file
+> The above hierarchy is represented with the follow format for the hierarchy.txt file
 g={g1,g2}
+
 g1={g11,g12}
+
 g11 ={C1,c2}
 c1
 c2
@@ -65,16 +58,15 @@ c7
 
 
 
-intercriteria.txt
----------------------------------
-#The space between data is tab [\t]
+### intercriteria.txt
+> The space between data is tab [\t]
 w_1 w_2 ... w_n
 q_1 q_2 ... q_n
 p_1 p_2 ... p_n
 v_1 v_2 ... v_n
 
 
-performance.txt
+### performance.txt
 ---------------------------------
 g(a1_1) g(a1_2) ... g(a1_n)
 g(a2_1) g(a2_2) ... g(a2_n)
@@ -82,16 +74,17 @@ g(a2_1) g(a2_2) ... g(a2_n)
 g(am_1) g(am_2) ... g(am_n)
 
 
-problem.txt
+### problem.txt
 -------------------------------
 4	#number of alternatives
 3	#number of criteria
 
 
-use_veto.txt
+### use_veto.txt
 -------------------------------
-#specify if the criterion use veto factor 
-#(0 do not use veto) or (1 use veto)
+> specify if the criterion use veto factor 
+> (0 do not use veto) or (1 use veto)
+
 g_1
 g_2
 ...
@@ -99,8 +92,7 @@ g_m
 
 
 
-Output 
-###############################
-It is a valued outranking matrix and ranking for each node in the hierarchy
-If tred package is instaled, the program will import the corresponing graph to .png files
+## Output 
+- It is a valued outranking matrix and ranking for each node in the hierarchy.
+- If tred package is instaled, the program will import the corresponing graph to .png files.
 
