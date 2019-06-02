@@ -35,13 +35,13 @@ g_m
 
 ### hierarchy.txt
 
-	      g
-	    /    \
-	   g1      g2
-       /  \    /  \
-     g11 g12  g21  g22
-    /  \  |   / \  /  \
-   c1 c2 c3  c4 c5 c6  c7
+	        g
+	      /    \
+	     g1      g2
+        /  \    /  \
+      g11 g12  g21  g22
+     /  \  |   / \  /  \
+    c1 c2 c3  c4 c5 c6  c7
    
 
 > The above hierarchy is represented with the follow format for the hierarchy.txt file
