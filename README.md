@@ -1,26 +1,36 @@
+- **Code** goes in the *Code* pane. Your code will be copied to the `/code` directory at the beginning of each run.
+- **Data** goes in the *Data* pane. Your data will be copied to the `/data` directory at the beginning of each run.
+- **Results** include any plots, figures, and resulting data, which should be saved in the `/results` directory. At the end of the run, these files will appear in the *Results* pane where you can view and download them.
+
+> Note that the entire filesystem is ephemeral: only files saved in `/results` will survive the end of the run.
+
+## Environment and Dependencies
+
+Click the gear icon next to *Run* to find the *Run Environment* screen, where you can choose a base environment and customize it by installing dependencies.
+
+### Base Environment
+
 # hierarchy-ELECTREIII
 The ELECTRE III method developed for the multiple criteria hierarchy process
 
 How to run?
-./H-ELECTRE-III-share <directory_with_input_files>
-./H-ELECTRE-III-share my_project_name
+- ./H-ELECTRE-III-share <directory_with_input_files>
+- ./H-ELECTRE-III-share my_project_name
 
 
-#Description of the input and output data
+## Description of the input and output data
 
-The input files shoul be saved in a directory inside the /projects
+> The input files shoul be saved in a directory inside the /projects
 Example
-/projects/my_project_name
+projects/my_project_name
 
 Running as
 ./H-ELECTRE-III-share my_project_name
 
-Input 
-###############################
+## Input 
 
-direction.txt
----------------------------------
-#0:minimization or 1 maximization
+### direction.txt
+> 0:minimization or 1 maximization
 g_1
 g_2
 ...
