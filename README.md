@@ -4,8 +4,7 @@ The ELECTRE III method developed for the multiple criteria hierarchy process
 
 How to cite?
 
-Alvarez, P., Muñoz-Palma, M., Miranda-Espinoza, L., Lopez-Parra, P., & León-Castro, E. (2020). Enfoque multicriterio jerárquico para el análisis de la competitividad de las regiones en México. INQUIETUD EMPRESARIAL, 20(2), 29-51. 
-https://revistas.uptc.edu.co/index.php/inquietud_empresarial/article/view/11408
+Pavel Anselmo Alvarez and Cuitláhuac Valdez and Bapi Dutta (2022). Analysis of the innovation capacity of Mexican regions with the multiple criteria hierarchy process. Socio-Economic Planning Sciences. https://doi.org/10.1016/j.seps.2022.101418
 
 How to run?
 - ./H-ELECTRE-III-share <directory_with_input_files>
