@@ -4,7 +4,7 @@ The ELECTRE III method developed for the multiple criteria hierarchy process
 
 How to cite?
 
-Pavel Anselmo Alvarez and Cuitláhuac Valdez and Bapi Dutta (2022). Analysis of the innovation capacity of Mexican regions with the multiple criteria hierarchy process. Socio-Economic Planning Sciences. https://doi.org/10.1016/j.seps.2022.101418
+Pavel Anselmo Alvarez, Cuitláhuac Valdez, Bapi Dutta (2022). Analysis of the innovation capacity of Mexican regions with the multiple criteria hierarchy process. Socio-Economic Planning Sciences. https://doi.org/10.1016/j.seps.2022.101418
 
 How to run?
 - ./H-ELECTRE-III-share <directory_with_input_files>
