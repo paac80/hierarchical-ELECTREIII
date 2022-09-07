@@ -1,5 +1,5 @@
 
-# hierarchy-ELECTREIII
+# hierarchical-ELECTREIII
 The ELECTRE III method developed for the multiple criteria hierarchy process
 
 How to cite?
